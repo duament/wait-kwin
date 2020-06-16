@@ -1,0 +1,10 @@
+[Unit]
+Description=Wait until kwin starts
+
+[Service]
+Type=notify
+NotifyAccess=all
+ExecStart=/usr/bin/wait-kwin
+
+[Install]
+WantedBy=kwin.target

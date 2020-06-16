@@ -1,0 +1,13 @@
+#!/usr/bin/bash
+
+while true
+do
+    if pgrep -x kwin_x11 > /dev/null
+    then
+        systemd-notify --ready
+        exit 0
+    fi
+
+    sleep 3
+done
+
