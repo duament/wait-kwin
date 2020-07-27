@@ -1,7 +1,7 @@
 # Maintainer: Duama <admin@duama.top>
 
 pkgname=wait-kwin
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="tools to wait for kwin"
 arch=('any')
@@ -10,7 +10,7 @@ source=('wait-kwin'
         'wait-kwin.service'
         'kwin.target')
 sha256sums=('e16ffd76de606c50ac80e86501e9623265627a76de95715b0b3217bb122afee5'
-            '35ffeeb9920cb91b5d1d7c02f3e9f2fedcd2795bffd31f951748a29bd337f5c5'
+            'ee8095db7354ef61c318c2a18840a3cd3282ad32757c046676ae5ff3e7fc094e'
             '5207984b5e2fd265c162985dae8e7c8d0741891f6e036a03dbdd8af7e5695341')
 
 build() {
